@@ -77,3 +77,12 @@ df.iloc[[1,2,3],[0,1]]
 ```python
 df.iloc[:,[0,1]]
 ```
+
+<h2 id="boolean_numpy"><strong>Boolean Operators (numpy)</strong></h2>
+Sometime we want to use boolean propositions to elements of an array. In these cases we should use the Numpy Boolean Operators
+
+* logical_and()
+* logical_or()
+* logical_not()
+
+
