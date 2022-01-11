@@ -94,6 +94,9 @@ np.logical_and(array1>10, array1<200) #[False, True, False]
 
 <h2 id="datetime">Datetime</h2>
 
+for more information access: 
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html">pandas.to_datetime</a>
+
 For dataframes that have informations about dates we can use several forms to deal with them.
 
 ```python
@@ -109,6 +112,8 @@ pd.to_datetime(df['column'], format='%d/%m/%Y %H:%M', errors='coerce')
 ```
 
 <h3>Timedelta</h3>
+for more information access:
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.html?highlight=pandas%20series%20dt#pandas.Series.dt"> pandas.Series.dt</a>
 when we need to do math with dates we have to pay attention to the timedelta operator.
 If we simply subrtrack two dates, the result is a kind of data that has "days" in the data.
 to get a number we should use 
@@ -117,6 +122,6 @@ to get a number we should use
 (data1-data2).dt.days 
 ```
 
-more information in 
+for more information access: 
 <a href="https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html">pandas.to_datetime</a>
 
