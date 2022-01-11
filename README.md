@@ -28,3 +28,13 @@ df_ab = df[['a', 'b']]
 
 ### Row access
 We should use index slice
+```python
+df[1:4]
+```
+
+## Row Access loc
+
+```python
+df.loc['label_of row'] 
+df.loc[['label1', 'label2', 'label3']]
+```
