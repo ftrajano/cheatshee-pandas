@@ -38,3 +38,13 @@ df[1:4]
 df.loc['label_of row'] 
 df.loc[['label1', 'label2', 'label3']]
 ```
+
+### Row & Column loc
+```python
+df.loc[['row_label'], ['column label']]
+```
+
+### Column access
+```python
+df.loc[:, ['column label']]
+```
