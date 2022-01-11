@@ -2,9 +2,10 @@
 A cheatsheet for pandas most used commands.
 
 ### Index
-1. Brackets
-2. loc
+1. <a href="#brackets">Brackets</a>
+2. <a href="#loc">loc</a>
 3. <a href="#iloc">iloc</a>
+4. <a href="boolean_numpy">Boolean Operators (Numpy)</a>
 
 ## Index and Select Data
 * Brackets
@@ -12,7 +13,8 @@ A cheatsheet for pandas most used commands.
   1. loc (label-based)
   2. iloc (integer position-based)
 
-## Brackets
+<h2 id="brackets">Brackets</h2>
+
 ### Column Access
 
 Series vs. Dataframes
@@ -37,7 +39,8 @@ We should use index slice
 df[1:4]
 ```
 
-## **loc**
+<h2 id="loc"><strong>loc</strong></h2>
+
 ### Row Access loc
 
 ```python
