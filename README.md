@@ -108,6 +108,15 @@ another way is using
 pd.to_datetime(df['column'], format='%d/%m/%Y %H:%M', errors='coerce')
 ```
 
+<h3>Timedelta</h3>
+when we need to do math with dates we have to pay attention to the timedelta operator.
+If we simply subrtrack two dates, the result is a kind of data that has "days" in the data.
+to get a number we should use 
+
+```python
+(data1-data2).dt.days 
+```
+
 more information in 
 <a href="https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html">pandas.to_datetime</a>
 
