@@ -6,6 +6,7 @@ A cheatsheet for pandas most used commands.
 2. <a href="#loc">loc</a>
 3. <a href="#iloc">iloc</a>
 4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
+5. <a href="#datetime">Datetime</a>
 
 ## Index and Select Data
 * Brackets
@@ -90,4 +91,23 @@ array1 = [10, 100, 200]
 np.logical_and(array1>10, array1<200) #[False, True, False] 
 
 ```
+
+<h2 id="datetime">Datetime</h2>
+
+For dataframes that have informations about dates we can use several forms to deal with them.
+
+```python
+pd.read_csv('../my_dataset.csv', parse_dates=['column1', 'column2'])
+```
+This atributes of read_csv try to parse the information as date objects.
+
+another way is using 
+
+```python
+# the format string helps panda to identify the format of the data in your dataset and errors='coerce' transforms data that is not in our format to NaT
+pd.to_datetime(df['column'], format='%d/%m/%Y %H:%M', errors='coerce')
+```
+
+more information in 
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html">pandas.to_datetime</a>
 
