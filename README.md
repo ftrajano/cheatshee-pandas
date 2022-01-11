@@ -51,10 +51,19 @@ df.loc[:, ['column label']]
 ```
 
 
-## Row Access iloc
+## **iloc**
+### Row Access iloc
 ```python
 df.iloc[[1]]
 df.iloc[[1,2,3]]
 ```
 
-##
+### Row & Column iloc
+```python
+df.iloc[[1,2,3],[0,1]]
+```
+
+### Column Access iloc
+```python
+df.iloc[:,[0,1]]
+```
