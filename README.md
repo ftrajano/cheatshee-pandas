@@ -1,6 +1,11 @@
 # cheatsheet-pandas
 A cheatsheet for pandas most used commands.
 
+### Index
+1. Brackets
+2. loc
+3. <a href="#iloc">iloc</a>
+
 ## Index and Select Data
 * Brackets
 * Advanced Method
