@@ -32,7 +32,8 @@ We should use index slice
 df[1:4]
 ```
 
-## Row Access loc
+## **loc**
+### Row Access loc
 
 ```python
 df.loc['label_of row'] 
@@ -48,3 +49,12 @@ df.loc[['row_label'], ['column label']]
 ```python
 df.loc[:, ['column label']]
 ```
+
+
+## Row Access iloc
+```python
+df.iloc[[1]]
+df.iloc[[1,2,3]]
+```
+
+##
