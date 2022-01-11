@@ -51,7 +51,8 @@ df.loc[:, ['column label']]
 ```
 
 
-## **iloc**
+<h2 id="iloc"> <strong>iloc</strong></h2>
+
 ### Row Access iloc
 ```python
 df.iloc[[1]]
@@ -63,7 +64,7 @@ df.iloc[[1,2,3]]
 df.iloc[[1,2,3],[0,1]]
 ```
 
-<h2> Column Access iloc</h2>
+<h3> Column Access iloc</h3>
 
 ```python
 df.iloc[:,[0,1]]
