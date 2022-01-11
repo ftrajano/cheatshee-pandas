@@ -102,7 +102,7 @@ For dataframes that have informations about dates we can use several forms to de
 ```python
 pd.read_csv('../my_dataset.csv', parse_dates=['column1', 'column2'])
 ```
-This atributes of read_csv try to parse the information as date objects.
+These atributes of read_csv try to parse the information as date objects.
 
 another way is using 
 
@@ -121,7 +121,3 @@ to get a number we should use
 ```python
 (data1-data2).dt.days 
 ```
-
-for more information access: 
-<a href="https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html">pandas.to_datetime</a>
-
