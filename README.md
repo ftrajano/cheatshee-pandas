@@ -5,7 +5,7 @@ A cheatsheet for pandas most used commands.
 1. <a href="#brackets">Brackets</a>
 2. <a href="#loc">loc</a>
 3. <a href="#iloc">iloc</a>
-4. <a href="boolean_numpy">Boolean Operators (Numpy)</a>
+4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
 
 ## Index and Select Data
 * Brackets
