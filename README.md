@@ -63,7 +63,7 @@ df.iloc[[1,2,3]]
 df.iloc[[1,2,3],[0,1]]
 ```
 
-### Column Access iloc
+<h2> Column Access iloc</h2>
 ```python
 df.iloc[:,[0,1]]
 ```
