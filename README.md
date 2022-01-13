@@ -18,6 +18,9 @@ A cheatsheet for pandas most used commands.
 Pandas is built above numpy so it has some great properties like vetorization of data
 ```python
 numpy_array = df['a'].values # gives us a numpy array, if we type this we obtains <class 'numpy.ndarray'>
+
+new_column = df['a'].values-df['b'].values
+df['new_column']=new_column
 ```
 
 
