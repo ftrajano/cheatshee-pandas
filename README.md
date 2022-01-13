@@ -8,6 +8,7 @@ A cheatsheet for pandas most used commands.
 4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
 5. <a href="#datetime">Datetime</a>
 6. <a href="#iterrows">iterrow</a>
+7. <a href="#itertuple">itertuple</a>
 
 ## Index and Select Data
 * Brackets
@@ -136,3 +137,19 @@ for i, row in df.iterrows()
   print(i)
   print(row)
 ```
+
+
+<h2 id="itertuples">itertuples</h2>
+
+for more information access:
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.itertuples.html"> pandas.DataFrame.iterrows()</a>
+
+Another way of iterate over a dataframe is using itertuples. Using this method we get as an output a named tuple ( from collections)
+it works as a tuple but to access their items we should use dot notation with the name of the atributes (df's colum names(?))
+
+```python
+for named_tuple in df.itertuples()
+  print(named_tuple.Index)
+  print(named_tuple.Other_column)
+```
+
