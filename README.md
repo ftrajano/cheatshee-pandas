@@ -9,6 +9,7 @@ A cheatsheet for pandas most used commands.
 5. <a href="#datetime">Datetime</a>
 6. <a href="#iterrows">iterrow</a>
 7. <a href="#itertuples">itertuple</a>
+8. <a href="#apply">apply</a>
 
 ## Index and Select Data
 * Brackets
@@ -151,5 +152,13 @@ it works as a tuple but to access their items we should use dot notation with th
 for named_tuple in df.itertuples()
   print(named_tuple.Index)
   print(named_tuple.Other_column)
+```
+
+<h2 id="apply">Using apply for loop on dataframes</h2>
+
+we can use lambda functions in pandas.DataFrame.apply()
+```python
+df.apply(
+    lambda row: calculate(row['a'], row['b']) # this will iterate over rows
 ```
 
