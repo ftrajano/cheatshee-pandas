@@ -163,3 +163,43 @@ applied = df.apply(
 df['new_column'] = applied # the apply method returns a series(?)
 ```
 
+Examples:
+<table>
+  <tr>
+    <th></th>
+    <th>RS</th>
+    <th>RA</th>
+    <th>W</th>
+    <th>Playoffs</th>
+  </tr>
+  <tr>
+    <td>2012</td>
+    <td>697</td>
+    <td>577</td>
+    <td>90</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>2011</td>
+    <td>707</td>
+    <td>614</td>
+    <td>91</td>
+    <td>1</td>
+  </tr>
+<tr>
+  
+  </tr>
+<tr>
+  </tr>
+<tr>
+  </tr>
+
+             
+
+
+2010  802  649  96         1
+2009  803  754  84         0
+2008  774  671  97         1
+</table>
+
+
