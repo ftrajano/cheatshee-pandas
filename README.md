@@ -3,7 +3,7 @@ A cheatsheet for pandas most used commands.
 
 ### Index
 
-1. <a hret="#details">Pandas' details</a>
+1. <a href="#details">Pandas' details</a>
 2. <a href="#brackets">Brackets</a>
 3. <a href="#loc">loc</a>
 4. <a href="#iloc">iloc</a>
