@@ -7,6 +7,7 @@ A cheatsheet for pandas most used commands.
 3. <a href="#iloc">iloc</a>
 4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
 5. <a href="#datetime">Datetime</a>
+6. <a href="#iterrow">iterrow</a>
 
 ## Index and Select Data
 * Brackets
@@ -120,4 +121,15 @@ to get a number we should use
 
 ```python
 (data1-data2).dt.days 
+```
+
+<h2 id="iterrow">iterrow</h2>
+for more information access:
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html"> pandas.DataFrame.iterrows()</a>
+if we need to use a for loop in the rows of a data frame one of the best ways is to use pandas.DataFrame.iterrows()
+I think that it returns an iterable tuple of index and row
+```python
+for i, row in df.iterrows()
+  print(i)
+  print(row)
 ```
