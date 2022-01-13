@@ -8,7 +8,7 @@ A cheatsheet for pandas most used commands.
 4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
 5. <a href="#datetime">Datetime</a>
 6. <a href="#iterrows">iterrow</a>
-7. <a href="#itertuple">itertuple</a>
+7. <a href="#itertuples">itertuple</a>
 
 ## Index and Select Data
 * Brackets
