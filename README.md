@@ -124,10 +124,13 @@ to get a number we should use
 ```
 
 <h2 id="iterrow">iterrow</h2>
+
 for more information access:
 <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html"> pandas.DataFrame.iterrows()</a>
+
 if we need to use a for loop in the rows of a data frame one of the best ways is to use pandas.DataFrame.iterrows()
 I think that it returns an iterable tuple of index and row
+
 ```python
 for i, row in df.iterrows()
   print(i)
