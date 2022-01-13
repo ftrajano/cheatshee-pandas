@@ -7,7 +7,7 @@ A cheatsheet for pandas most used commands.
 3. <a href="#iloc">iloc</a>
 4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
 5. <a href="#datetime">Datetime</a>
-6. <a href="#iterrow">iterrow</a>
+6. <a href="#iterrows">iterrow</a>
 
 ## Index and Select Data
 * Brackets
@@ -123,7 +123,7 @@ to get a number we should use
 (data1-data2).dt.days 
 ```
 
-<h2 id="iterrow">iterrow</h2>
+<h2 id="iterrows">iterrows</h2>
 
 for more information access:
 <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html"> pandas.DataFrame.iterrows()</a>
