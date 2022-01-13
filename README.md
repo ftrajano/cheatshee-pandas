@@ -2,14 +2,24 @@
 A cheatsheet for pandas most used commands.
 
 ### Index
-1. <a href="#brackets">Brackets</a>
-2. <a href="#loc">loc</a>
-3. <a href="#iloc">iloc</a>
-4. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
-5. <a href="#datetime">Datetime</a>
-6. <a href="#iterrows">iterrow</a>
-7. <a href="#itertuples">itertuple</a>
-8. <a href="#apply">apply</a>
+
+1. <a hret="#details">Pandas' details</a>
+2. <a href="#brackets">Brackets</a>
+3. <a href="#loc">loc</a>
+4. <a href="#iloc">iloc</a>
+5. <a href="#boolean_numpy">Boolean Operators (Numpy)</a>
+6. <a href="#datetime">Datetime</a>
+7. <a href="#iterrows">iterrow</a>
+8. <a href="#itertuples">itertuple</a>
+9. <a href="#apply">apply</a>
+
+<h2 id="details">Pandas' details</h2>
+
+Pandas is built above numpy so it has some great properties like vetorization of data
+```python
+numpy_array = df['a'].values # gives us a numpy array, if we type this we obtains <class 'numpy.ndarray'>
+```
+
 
 ## Index and Select Data
 * Brackets
