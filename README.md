@@ -159,6 +159,6 @@ for named_tuple in df.itertuples()
 we can use lambda functions in pandas.DataFrame.apply()
 ```python
 df.apply(
-    lambda row: calculate(row['a'], row['b']) # this will iterate over rows
+    lambda row: calculate(row['a'], row['b'], axis=1) # this will iterate over rows, remember 0 for columns and 1 for rows
 ```
 
