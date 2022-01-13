@@ -214,36 +214,35 @@ Examples:
 stat_totals = rays_df.apply(sum, axis=0)
 print(stat_totals)
 
-"""
 RS          3783
 RA          3265
 W            458
 Playoffs       3
-dtype: int64"""
+dtype: int64
 
 # Gather total runs scored in all games per year
 total_runs_scored = rays_df[['RS', 'RA']].apply(sum, axis=1)
 print(total_runs_scored)
 
-"""
+
 2012    1274
 2011    1321
 2010    1451
 2009    1557
 2008    1445
-dtype: int64"""
+dtype: int64
 
 # Convert numeric playoffs to text by applying text_playoffs()
 textual_playoffs = rays_df.apply(lambda row: text_playoffs(row['Playoffs']), axis=1)
 print(textual_playoffs)
 
-"""<script.py> output:
-    2012     No
-    2011    Yes
-    2010    Yes
-    2009     No
-    2008    Yes
-    dtype: object"""
+<script.py> output:
+2012     No
+2011    Yes
+2010    Yes
+2009     No
+2008    Yes
+dtype: object
 
 ```
 
