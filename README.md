@@ -23,6 +23,12 @@ new_column = df['a'].values-df['b'].values
 df['new_column']=new_column
 ```
 
+## Pandas' Configurations
+To set the number of columns that are shown in your dataframe we use 
+```python
+pd.set_option('display.max_columns', 5000)
+```
+
 
 ## Index and Select Data
 * Brackets
